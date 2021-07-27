@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header-area */
+
+.header-area{
+    overflow: hidden;
+    background-color: #718093
+}
+.logo img{
+    height: auto;
+    width: 10%;
+    float: left;
+    margin-left: 50px;
+}
+.main::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+.main ul{
+    float: right;
+    list-style: none;
+    padding: 20px;
+}
+.main ul li{
+    float: left;
+    margin: 10px 15px;
+}
+.main ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #00a8ff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.main ul li:hover a{
+    color: #00a8ff;
+    transition: 0.5s;
+}
+.main ul .active  a{
+    color: #00a8ff;
+    
+} 
+/* header-area */
+
+/* banner */
+
+.banner{
+    height: 500px;
+    background-color: #192a56;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+.button{
+    margin-top: 150px;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #00a8ff;
+    transition: 0.5s;
+}
+
+/* banner */
+
+
+
+/* product */
+
+.section{
+    height: 340px;
+    overflow: hidden;
+    background-color: #666;
+}
+
+.col-1{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.col-2{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.col-3{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+
+.col-4{
+    width: 25%;
+    height: 200px;
+    color: #fff;
+    float: left;
+}
+
+/* about-us */
+
+.about-us{
+    overflow: hidden;
+}
+
+.about-left{
+    width: 70%;
+    height: 300px;
+    background-color: #158139;
+    float: left;
+}
+
+.about-right{
+    width: 30%;
+    height: 300px;
+    background-color: #061801;
+    float: right;
+}
+
+
+
+
+.subscribe{
+    background: #23232D;
+    padding: 60px 0;
+    text-align: center;
+    color: #fff;
+}
+.subscribe form input{
+    color: #666666;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+.subscribe input[type="text"]{
+    margin-right: 10px;
+}
+.subscribe input[type="submit"]{
+    background: #7b79c9;
+    cursor: pointer;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.subscribe .btn:hover{
+    background: #000;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+.footer p{
+    text-align: center;
+    color: #cccccc;
+    font-size: 18px;
+    background-color: #718093;
+    height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
